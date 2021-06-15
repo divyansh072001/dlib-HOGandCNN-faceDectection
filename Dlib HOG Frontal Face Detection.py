@@ -2,8 +2,8 @@ import cv2
 import dlib
 import time
 
-img1 = cv2.imread("media/group photo.jpg")
-# img1 = cv2.imread("media/queue people.jpg")
+img1 = cv2.imread("group photo.jpg")
+# img1 = cv2.imread("queue people.jpg")
 
 hog_frontal_face = dlib.get_frontal_face_detector()
 
