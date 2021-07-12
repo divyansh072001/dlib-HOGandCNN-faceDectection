@@ -7,3 +7,9 @@ For a better accuracy, we can use the CNN face detection, which as it's name sug
 In my code, I've used the mmod_human_face_detector.dat file, which is a pretrained file for model weights, and can be downloaded easily from any web resource.
 For using the CNN face detector, the dlib installation must be configured for using the GPU, i.e., it should be CUDA enabled, else the prediction will be too slow.
 To prevent any such cases, you can also use Google Colab.
+![hog_face_detection](https://user-images.githubusercontent.com/63373905/125340559-38940880-e370-11eb-9b47-dff4510a7f8f.png)
+The above picture is a result of using the HOG face detector.
+
+![cnn_face_detection](https://user-images.githubusercontent.com/63373905/125340663-5d887b80-e370-11eb-8b43-83492431b981.png)
+The above picture is the result of using the CNN face detector. We can clearly see the difference between the HOG and CNN detector. The CNN face detector works even if the
+face is half visible or even at some other angle or facing the other direction other than front.
